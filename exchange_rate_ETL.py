@@ -34,5 +34,5 @@ sparkDF.write.mode("append") \
 .option("url", "jdbc:sqlserver://exchange-rate-paulina.database.windows.net:1433;databaseName=exchange-rate")\
 .option("dbtable", "dbo.exchange_rate_table")\
 .option("user", "paulina")\
-.option("password", "Cipjbfic12#")\
+.option("password", "test")\
 .save()
